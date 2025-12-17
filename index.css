@@ -1,0 +1,21 @@
+body {
+  background-color: #0f0f0f;
+  color: white;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  border-color: #ff0000;
+}
+#search-field-wrapper {
+  min-width: 500px;
+  margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  #search-field-wrapper {
+    min-width: auto;
+  }
+}
+
+/* REPLACING BOOTSTRAP CLASS STYLES */
+.bg-dark {
+  background-color: #0f0f0f !important;
+}
